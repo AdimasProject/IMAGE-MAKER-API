@@ -1,0 +1,32 @@
+{
+  "name": "maker",
+  "version": "1.0.0",
+  "description": "PhotoOxy and TextPro image maker apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADI-TECH-API/IMAGE-MAKER-API.git"
+  },
+  "keywords": [
+    "PhotoOxy",
+    "TextPro",
+    "apis"
+  ],
+  "author": "ADI-TECH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADI-TECH-API/IMAGE-MAKER-API/issues"
+  },
+  "homepage": "https://github.com/ADI-TECH-API/IMAGE-MAKER-API#readme",
+  "dependencies": {
+    "@sl-code-lords/photooxy": "^1.0.1",
+    "@sl-code-lords/text-pro-me": "^1.0.0",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "fs": "^0.0.1-security"
+  }
+}
